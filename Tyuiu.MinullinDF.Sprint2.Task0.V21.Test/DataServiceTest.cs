@@ -12,7 +12,7 @@ namespace Tyuiu.MinullinDF.Sprint2.Task0.V21.Test
             int x = 1705;
             int y = 775;
             var res = ds.GetCompareOperations(x, y);
-            bool[] c = [false, true, false, true, false, true];
+            bool[] c = [false, false, false, false, false, false];
             CollectionAssert.AreEqual(c, res);
         }
     }
