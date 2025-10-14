@@ -6,7 +6,7 @@ namespace Tyuiu.MinullinDF.Sprint2.Task0.V21.Lib
     {
         public bool[] GetCompareOperations(int x, int y)
         {
-            return [x == y, x != y, x < y, x > y, x <= y, x >= y];
+            return [x == y, x != x, x < y, y > x, x <= y, y >= x];
         }
     }
 }
